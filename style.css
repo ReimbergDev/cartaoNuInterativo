@@ -1,0 +1,171 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container-1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.sessão-1-botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 15px;
+    justify-content: space-between;
+    background: #6a13a4;
+    margin-left: -80px;
+}
+.sessão-2-card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25em;
+    height: 15em;
+    justify-content: flex-start;
+    padding: 10px;
+    color: white;
+    background-color: #820ad1;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.867) 7px 7px 7px;
+}
+.master{
+width: 15%;
+} 
+.chip{
+width: 25%;
+margin: 10px;
+
+}
+.logo-nu-e-nome{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    
+}
+.masterlog-e-chip{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.nu{
+width: 70px;
+
+}
+.log{
+    cursor: pointer;
+    color: white;
+}
+
+.container-card{
+    border: rgb(0, 0, 0) 1px solid;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-baixo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-baixo section .icon{
+    width: 64px;
+    height: 64px;
+}
+
+
+.card-baixo section img{
+    width: 64px;
+    height: 64px;
+}
+.card-baixo section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 1.5rem;
+    border-radius: 145px;
+    max-height: 468px;
+    margin-left: 55px;
+}
+.card-baixo section:first-child{
+    margin-left: 0;
+}
+.card-baixo section button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: white;
+    text-shadow: black 1px 1px;
+
+    
+}
+.card-contact button{
+    background: linear-gradient(to right, #9F66FF, #dfcbff);
+}
+.card-shop button{
+    background: linear-gradient(to right, #3e8aff, #bbdeff);
+}
+.card-about button{
+    background: linear-gradient(to right, #fe5f8f, #ffc7d9);
+}
+.card-contact{
+    box-shadow: 20px 20px 50px  #c5abf0e1;
+    margin-bottom: 16px;
+    
+}
+.card-shop{
+    box-shadow: 20px 20px 50px #93c3f6de;
+    margin-bottom: 16px;
+}
+.card-about{
+    box-shadow: 20px 20px 50px #d2baf9e8;
+    margin-bottom: 16px;
+}
+.card-baixo section h3{
+    margin: 16px 0;
+}
+.card-baixo section span{
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    
+}
+
+@media screen and (max-width: 720px){
+    .card-baixo{
+        flex-direction: column ;
+    }
+    .card-baixo section{
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+    .card-baixo section:last-child{
+        margin-bottom: 0;
+    }
+    .card-baixo section button{
+        font-size: 70%;
+    }
+
+} 
